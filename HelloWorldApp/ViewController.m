@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize helloWorldLabel;
 
 - (void)viewDidLoad
 {
@@ -22,6 +23,7 @@
 
 - (void)viewDidUnload
 {
+    [self setHelloWorldLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -35,4 +37,7 @@
     }
 }
 
+- (IBAction)pushButton:(UIButton *)sender {
+    self.helloWorldLabel.text = @"HELLO THERE WORLD";
+}
 @end

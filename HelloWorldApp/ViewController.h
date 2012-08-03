@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *helloWorldLabel;
+- (IBAction)pushButton:(UIButton *)sender;
+
 @end
