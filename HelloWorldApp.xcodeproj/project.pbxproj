@@ -14,8 +14,8 @@
 		6841C13915CB570100473C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841C13815CB570100473C81 /* main.m */; };
 		6841C13D15CB570100473C81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841C13C15CB570100473C81 /* AppDelegate.m */; };
 		6841C14015CB570100473C81 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6841C13E15CB570100473C81 /* MainStoryboard_iPhone.storyboard */; };
-		6841C14315CB570100473C81 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6841C14115CB570100473C81 /* MainStoryboard_iPad.storyboard */; };
 		6841C14615CB570100473C81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6841C14515CB570100473C81 /* ViewController.m */; };
+		6841C14D15CB612B00473C81 /* iphone_app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6841C14C15CB612B00473C81 /* iphone_app_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +23,16 @@
 		6841C12C15CB570100473C81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6841C12E15CB570100473C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6841C13015CB570100473C81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6841C13415CB570100473C81 /* HelloWorldApp-Info.plist */ = {isa = PBXFileReference; path = "HelloWorldApp-Info.plist"; sourceTree = "<group>"; };
+		6841C13415CB570100473C81 /* HelloWorldApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldApp-Info.plist"; sourceTree = "<group>"; };
 		6841C13615CB570100473C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6841C13815CB570100473C81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6841C13A15CB570100473C81 /* HelloWorldApp-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorldApp-Prefix.pch"; sourceTree = "<group>"; };
-		6841C13B15CB570100473C81 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6841C13A15CB570100473C81 /* HelloWorldApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldApp-Prefix.pch"; sourceTree = "<group>"; };
+		6841C13B15CB570100473C81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6841C13C15CB570100473C81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6841C13F15CB570100473C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		6841C14215CB570100473C81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		6841C14415CB570100473C81 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6841C14415CB570100473C81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6841C14515CB570100473C81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6841C14C15CB612B00473C81 /* iphone_app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone_app_icon.png; path = ../../../Downloads/iphone_app_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +52,7 @@
 		6841C11D15CB570100473C81 = {
 			isa = PBXGroup;
 			children = (
+				6841C14C15CB612B00473C81 /* iphone_app_icon.png */,
 				6841C13215CB570100473C81 /* HelloWorldApp */,
 				6841C12B15CB570100473C81 /* Frameworks */,
 				6841C12915CB570100473C81 /* Products */,
@@ -82,7 +83,6 @@
 				6841C13B15CB570100473C81 /* AppDelegate.h */,
 				6841C13C15CB570100473C81 /* AppDelegate.m */,
 				6841C13E15CB570100473C81 /* MainStoryboard_iPhone.storyboard */,
-				6841C14115CB570100473C81 /* MainStoryboard_iPad.storyboard */,
 				6841C14415CB570100473C81 /* ViewController.h */,
 				6841C14515CB570100473C81 /* ViewController.m */,
 				6841C13315CB570100473C81 /* Supporting Files */,
@@ -153,7 +153,7 @@
 			files = (
 				6841C13715CB570100473C81 /* InfoPlist.strings in Resources */,
 				6841C14015CB570100473C81 /* MainStoryboard_iPhone.storyboard in Resources */,
-				6841C14315CB570100473C81 /* MainStoryboard_iPad.storyboard in Resources */,
+				6841C14D15CB612B00473C81 /* iphone_app_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +187,6 @@
 				6841C13F15CB570100473C81 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6841C14115CB570100473C81 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6841C14215CB570100473C81 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -254,6 +246,7 @@
 				GCC_PREFIX_HEADER = "HelloWorldApp/HelloWorldApp-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorldApp/HelloWorldApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,6 +258,7 @@
 				GCC_PREFIX_HEADER = "HelloWorldApp/HelloWorldApp-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorldApp/HelloWorldApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
